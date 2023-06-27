@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import confetti from "canvas-confetti";
+// import confetti from "canvas-confetti";
 
 
 
@@ -24,7 +24,7 @@ function App() {
 
   const CheckWinner = (newBoard) => {
     if (JSON.stringify(newBoard) == '[1,2,3,4,5,6,7,8,null]') {
-      confetti()
+      // confetti()
       setModal(true)
     }
   }
