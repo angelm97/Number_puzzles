@@ -10,7 +10,6 @@ import confetti from "canvas-confetti";
 
 function App() {
 
-
   const [modal, setModal] = useState(false)
   const [board, setBoard] = useState([1, 5, 3, 7, 2, 6, 4, null, 8]);
 
@@ -29,9 +28,6 @@ function App() {
       setModal(true)
     }
   }
-
-
-
 
   const nextToMe = async (position, num) => {
     //if board size is 4 x 4 add -4 and +4 to toCheck
